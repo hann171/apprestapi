@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "aplikasi rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hann171/apprestapi.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "author": "hengky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hann171/apprestapi/issues"
+  },
+  "homepage": "https://github.com/hann171/apprestapi#readme"
+}
