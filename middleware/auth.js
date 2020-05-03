@@ -93,3 +93,7 @@ exports.login = function(req,rest){
         }
     });
 }
+
+exports.halamanrahasia = function(req,rest){
+    response.ok("Halaman ini khusus user role 2");
+}
