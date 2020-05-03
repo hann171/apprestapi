@@ -26,7 +26,7 @@ exports.registrasi = function(req,rest){
         }
         else{
             if(rows.length == 0){
-                var query = "INSERT INTO ?? SET ??";
+                var query = "INSERT INTO ?? SET ?";
                 var table = ["user"];
                 query = mysql.format(query,table);
                 connection.query(query, post, function(error,rows){
